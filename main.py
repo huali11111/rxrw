@@ -27,7 +27,7 @@ def get_weather():
 
 def get_count():
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
-   evalJson=eval('<span  style="color:#3D8FFF">'+elta.days+'</span>');
+   evalJson=eval('<span  style="color:#3D8FFF">'+delta.days+'</span>');
   return evalJson
 
 def get_girl_birthday():
